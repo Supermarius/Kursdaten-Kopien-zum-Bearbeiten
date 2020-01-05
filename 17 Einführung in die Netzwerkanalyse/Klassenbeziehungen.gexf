@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2019-12-09">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="edge_color" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Kathrin" label="Kathrin" />
+      <node id="Marius" label="Marius" />
+      <node id="Reto" label="Reto" />
+      <node id="Martin" label="Martin" />
+      <node id="Manuela" label="Manuela" />
+      <node id="Sandra" label="Sandra" />
+      <node id="Fabian" label="Fabian" />
+      <node id="Sven" label="Sven" />
+      <node id="Jörg" label="Jörg" />
+      <node id="Zoe" label="Zoe" />
+      <node id="Plotti" label="Plotti" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Kathrin" target="Marius" weight="5" />
+      <edge id="1" source="Kathrin" target="Plotti" weight="1">
+        <attvalues>
+          <attvalue for="0" value="blue" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Marius" target="Reto" weight="5" />
+      <edge id="3" source="Marius" target="Plotti" weight="1">
+        <attvalues>
+          <attvalue for="0" value="blue" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Reto" target="Martin" weight="5" />
+      <edge id="5" source="Reto" target="Plotti" weight="1">
+        <attvalues>
+          <attvalue for="0" value="blue" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Martin" target="Manuela" weight="5" />
+      <edge id="7" source="Martin" target="Plotti" weight="1">
+        <attvalues>
+          <attvalue for="0" value="blue" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Manuela" target="Sandra" weight="5" />
+      <edge id="9" source="Manuela" target="Plotti" weight="1">
+        <attvalues>
+          <attvalue for="0" value="blue" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Sandra" target="Fabian" weight="5" />
+      <edge id="11" source="Sandra" target="Plotti" weight="1">
+        <attvalues>
+          <attvalue for="0" value="blue" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Fabian" target="Sven" weight="5" />
+      <edge id="13" source="Fabian" target="Plotti" weight="1">
+        <attvalues>
+          <attvalue for="0" value="blue" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Sven" target="Jörg" weight="5" />
+      <edge id="15" source="Sven" target="Plotti" weight="1">
+        <attvalues>
+          <attvalue for="0" value="blue" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="Jörg" target="Zoe" weight="5" />
+      <edge id="17" source="Jörg" target="Plotti" weight="1">
+        <attvalues>
+          <attvalue for="0" value="blue" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="Zoe" target="Plotti" weight="1">
+        <attvalues>
+          <attvalue for="0" value="blue" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
